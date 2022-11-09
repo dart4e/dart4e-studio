@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Dart4E Studio Customizaton Plug-in
+Bundle-SymbolicName: org.dart4e.studio.plugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: The Dart4E Project
+Automatic-Module-Name: org.dart4e.studio.plugin
+Bundle-Activator: org.dart4e.studio.Dart4EStudioPlugin
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-ClassPath: .
+Require-Bundle: org.eclipse.core.contenttype,
+ org.eclipse.core.externaltools,
+ org.eclipse.core.runtime,
+ org.eclipse.debug.core,
+ org.eclipse.debug.ui,
+ org.eclipse.tm4e.registry,
+ org.eclipse.ui,
+ org.eclipse.ui.editors,
+ org.eclipse.ui.externaltools,
+ org.eclipse.ui.ide,
+ org.eclipse.ui.ide.application,
+ org.eclipse.ui.genericeditor,
+ net.sf.jstuff.core;bundle-version="[7.2.0,8.0.0)",
+ de.sebthom.eclipse.commons
