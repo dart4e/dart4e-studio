@@ -34,16 +34,6 @@ jobs:
     concurrency: ci-${{ github.ref }}
     steps:
 
-    - name: Generate GitHub Access Token
-      uses: tibdex/github-app-token@v1 # https://github.com/tibdex/github-app-token
-      if: github.ref == 'refs/heads/main'
-      id: generate_token
-      # see https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#authenticating-with-github-app-generated-tokens
-      with:
-        # see https://github.com/organizations/dart4e/settings/apps/dart4e-tu
-        app_id: ${{ secrets.DART4E_TU_APP_ID }}
-        private_key: ${{ secrets.DART4E_TU_PRIVATE_KEY }}
-
     - name: Git Checkout
       uses: actions/checkout@v3 # https://github.com/actions/checkout
 
@@ -115,7 +105,7 @@ jobs:
     - name: "Delete previous 'latest' release"
       if: github.ref == 'refs/heads/main'
       env:
-        GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         set -eu
 
@@ -139,7 +129,7 @@ jobs:
     - name: "Create 'latest' release"
       if: github.ref == 'refs/heads/main'
       env:
-        GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         set -eux
 
