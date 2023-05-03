@@ -1,3 +1,4 @@
+# https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings#example
 # inspired by
 # - https://github.com/alexkaratarakis/gitattributes/blob/master/Java.gitattributes
 # - https://github.com/alexkaratarakis/gitattributes/blob/master/Common.gitattributes
@@ -9,6 +10,10 @@
 #
 # The above will handle all files with names NOT matching patterns defined below
 #
+
+# Eclipse PDE
+*.product text
+*.target  text
 
 # Git files
 .gitattributes    text eol=lf
