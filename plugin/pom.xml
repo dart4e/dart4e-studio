@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
-   Copyright 2022 by the Dart4E authors.
+   SPDX-FileCopyrightText: © Dart4E authors
+   SPDX-FileContributor: Sebastian Thomschke
    SPDX-License-Identifier: EPL-2.0
-
-   @author Sebastian Thomschke
+   SPDX-ArtifactOfProjectHomePage: https://github.com/dart4e/dart4e-studio
 -->
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -48,7 +48,7 @@
             <groupId>com.googlecode.maven-download-plugin</groupId>
             <artifactId>download-maven-plugin</artifactId>
             <!-- https://github.com/maven-download-plugin/maven-download-plugin/releases -->
-            <version>1.7.1</version>
+            <version>1.8.0</version>
             <executions>
                <!-- *.java lang config -->
                <execution>
