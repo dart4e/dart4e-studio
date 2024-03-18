@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Copyright 2022 by the Dart4E authors.
+# SPDX-FileCopyrightText: © Dart4E authors
+# SPDX-FileContributor: Sebastian Thomschke
 # SPDX-License-Identifier: EPL-2.0
-#
-# Author: Sebastian Thomschke
+# SPDX-ArtifactOfProjectHomePage: https://github.com/dart4e/dart4e-studio/
 #
 
 set -eu

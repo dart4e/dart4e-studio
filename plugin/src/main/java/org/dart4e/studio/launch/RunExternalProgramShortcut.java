@@ -1,10 +1,12 @@
 /*
- * Copyright 2022 by the Dart4E authors.
+ * SPDX-FileCopyrightText: © The Haxe4E authors
+ * SPDX-FileContributor: Sebastian Thomschke
  * SPDX-License-Identifier: EPL-2.0
+ * SPDX-ArtifactOfProjectHomePage: https://github.com/haxe4e/haxe4e-studio
  */
 package org.dart4e.studio.launch;
 
-import static net.sf.jstuff.core.validation.NullAnalysisHelper.*;
+import static net.sf.jstuff.core.validation.NullAnalysisHelper.asNonNull;
 
 import org.dart4e.studio.Dart4EStudioPlugin;
 import org.eclipse.core.externaltools.internal.IExternalToolConstants;

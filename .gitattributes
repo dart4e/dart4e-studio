@@ -61,6 +61,8 @@
 *.fish       text eol=lf
 *.sh         text eol=lf
 *.zsh        text eol=lf
+*.dart       text
+*.hx         text
 *.lua        text
 *.php        text
 *.py         text

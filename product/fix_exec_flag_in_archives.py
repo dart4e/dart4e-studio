@@ -1,7 +1,7 @@
-# Copyright 2022 by the Dart4E authors.
+# SPDX-FileCopyrightText: © Dart4E authors
+# SPDX-FileContributor: Sebastian Thomschke
 # SPDX-License-Identifier: EPL-2.0
-#
-# Author: Sebastian Thomschke
+# SPDX-ArtifactOfProjectHomePage: https://github.com/dart4e/dart4e-studio/
 #
 # Sets the missing executable flag in tar.gz files produced for Linux/MacOS when building on Windows
 # https://bugs.eclipse.org/bugs/show_bug.cgi?id=442607
