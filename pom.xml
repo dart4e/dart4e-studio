@@ -44,9 +44,11 @@
 
 
    <scm>
+      <!-- https://maven.apache.org/scm/git.html -->
       <url>https://github.com/dart4e/dart4e-studio</url>
       <connection>scm:git:https://github.com/dart4e/dart4e-studio.git</connection>
       <developerConnection>scm:git:https://github.com/dart4e/dart4e-studio.git</developerConnection>
+      <tag>HEAD</tag>
    </scm>
 
 
