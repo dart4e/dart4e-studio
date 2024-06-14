@@ -44,6 +44,7 @@
 # Config/Serialisation
 .editorconfig    text
 **/.editorconfig text
+*.graphql        text
 *.ini            text
 *.properties     text
 *.json           text
@@ -54,6 +55,8 @@
 
 
 # Scripts
+Dockerfile   text eol=lf
+*.Dockerfile text eol=lf
 *.bat        text eol=crlf
 *.cmd        text eol=crlf
 *.ps1        text eol=crlf

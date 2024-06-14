@@ -43,10 +43,10 @@ It has the following plugins pre-installed:
 
 You can download the latest platform-specific releases from here:
 
-- Linux: https://github.com/dart4e/dart4e-studio/releases/download/latest/org.dart4e.studio-linux.gtk.x86_64.tar.gz
-- MacOS: https://github.com/dart4e/dart4e-studio/releases/download/latest/org.dart4e.studio-macosx.cocoa.x86_64.tar.gz
-- Windows: https://github.com/dart4e/dart4e-studio/releases/download/latest/org.dart4e.studio-win.x86_64.zip
-- Windows Portable App: https://github.com/dart4e/dart4e-studio/releases/download/latest/Dart4EStudioPortable.paf.exe
+- Linux: https://github.com/dart4e/dart4e-studio/releases/download/stable/org.dart4e.studio-linux.gtk.x86_64.tar.gz
+- MacOS: https://github.com/dart4e/dart4e-studio/releases/download/stable/org.dart4e.studio-macosx.cocoa.x86_64.tar.gz
+- Windows: https://github.com/dart4e/dart4e-studio/releases/download/stable/org.dart4e.studio-win.x86_64.zip
+- Windows Portable App: https://github.com/dart4e/dart4e-studio/releases/download/stable/Dart4EStudioPortable.paf.exe
 
 ## <a name="usage"></a>Usage
 
