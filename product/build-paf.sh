@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: © Dart4E authors
 # SPDX-FileContributor: Sebastian Thomschke
 # SPDX-License-Identifier: EPL-2.0
-# SPDX-ArtifactOfProjectHomePage: https://github.com/dart4e/dart4e-studio/
+# SPDX-ArtifactOfProjectHomePage: https://github.com/dart4e/dart4e-studio
 #
 
 set -eu

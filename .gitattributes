@@ -134,6 +134,8 @@ Dockerfile   text eol=lf
 *.htm        text diff=html
 *.html       text diff=html
 *.js         text
+*.ts         text
+*.vue        text
 
 
 # https://git-scm.com/docs/gitattributes#_export_ignore
