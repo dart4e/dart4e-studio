@@ -35,6 +35,7 @@ It has the following plugins pre-installed:
 - [ShellWax](https://github.com/eclipse/shellwax) - Bash File Editor
 - [Wild Web Developer](https://github.com/eclipse/wildwebdeveloper) - Web Development Tools (CSS, HTML, JavaScript, TypeScript, XML support)
 
+![](product/src/dart4e_studio_splash.png)
 ![](https://github.com/dart4e/dart4e/raw/main/src/site/images/screenshot_editor.png)
 ![](https://github.com/dart4e/dart4e/raw/main/src/site/images/screenshot_debugger.png)
 ![](https://github.com/dart4e/dart4e/raw/main/src/site/images/screenshot_dartmenu.png)
