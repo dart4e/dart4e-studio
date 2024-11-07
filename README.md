@@ -82,9 +82,7 @@ To build the project, follow these steps:
    - https://adoptium.net/releases.html?variant=openjdk17
    - https://www.azul.com/downloads/?version=java-17-lts&package=jdk#zulu
 
-1. Download and install the latest [Maven distribution](https://maven.apache.org/download.cgi).
-
-1. **Configure Maven Toolchains**
+2. **Configure Maven Toolchains**
 
    In your user home directory, create the file `.m2/toolchains.xml` with the following content:
 
@@ -107,15 +105,15 @@ To build the project, follow these steps:
 
    Replace `[PATH_TO_YOUR_JDK_17]` with the path to your JDK installation.
 
-1. **Clone the Repository**
+3. **Clone the Repository**
 
    ```bash
    git clone https://github.com/dart4e/dart4e-studio.git
    ```
 
-1. **Build the Project**
+4. **Build the Project**
 
-   Run `mvn clean verify` in the project root directory.
+   Run `mvnw clean verify` in the project root directory.
    This will execute compilation, unit testing, integration testing, and packaging of all artifacts.
 
 
