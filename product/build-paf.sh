@@ -38,6 +38,9 @@ cp ../plugin/src/main/resources/images/logo/dart4e_logo48x48.png target/Dart4ESt
 cp ../plugin/src/main/resources/images/logo/dart4e_logo128x128.png target/Dart4EStudioPortable/App/AppInfo/appicon_128.png
 mv target/products/org.dart4e.studio/win32/win32/x86_64 target/Dart4EStudioPortable/App/Dart4EStudio
 
+# remove dynamic libs of other platforms
+rm -rf target/Dart4EStudioPortable/App/Dart4EStudio/plugins/com.sun.jna_*/com/sun/jna/{aix,darwin,freebsd,linux,openbsd,sunos}-*
+
 mkdir -p target/Dart4EStudioPortable/App/Dart4EStudio/configuration/.settings
 cat <<EOF >target/Dart4EStudioPortable/App/Dart4EStudio/configuration/.settings/org.eclipse.ui.ide.prefs
 eclipse.preferences.version=1
