@@ -131,16 +131,16 @@ jobs:
           -Dtycho.disableP2Mirrors=true \
           ${{ github.event.inputs.additional_maven_args }} \
           clean verify
-        
+
         cd product/target/products
 
         # remove unused dynamic libs
         rm -rf \
           org.dart4e.studio/linux/gtk/x86_64/plugins/com.sun.jna_*/com/sun/jna/{aix,darwin,freebsd,linux-a,linux-l,linux-m,linux-p,linux-r,linux-s,openbsd,sunos,win32}* \
           org.dart4e.studio/macosx/cocoa/x86_64/Eclipse.app/Contents/Eclipse/plugins/com.sun.jna_*/com/sun/jna/{aix,freebsd,linux,openbsd,sunos,win32}* \
-          org.dart4e.studio/win32/win32/x86_64/plugins/com.sun.jna_*/com/sun/jna/{aix,darwin,freebsd,linux,openbsd,sunos}* \
+          org.dart4e.studio/win32/win32/x86_64/plugins/com.sun.jna_*/com/sun/jna/{aix,darwin,freebsd,linux,openbsd,sunos}*
 
-        # generate linux archive
+        # generate linux x86_64 archive
         (
           cd org.dart4e.studio/linux/gtk/x86_64; 
           tar -cf ../../../../org.dart4e.studio-linux.gtk.x86_64.tar --exclude='Dart4EStudio' --exclude='plugins/org.eclipse.justj.*/jre/bin' *;
@@ -148,7 +148,15 @@ jobs:
         )
         gzip -9 org.dart4e.studio-linux.gtk.x86_64.tar
 
-        # generate macos archive
+        # generate macos aarch64 archive
+        (
+          cd org.dart4e.studio/macosx/cocoa/aarch64; 
+          tar -cf ../../../../org.dart4e.studio-macosx.cocoa.aarch64.tar --exclude='Eclipse.app/Contents/MacOS/Dart4EStudio' --exclude='Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.*/jre/bin' *;
+          tar --mode='+x' --append -f ../../../../org.dart4e.studio-macosx.cocoa.aarch64.tar Eclipse.app/Contents/MacOS/Dart4EStudio Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.*/jre/bin/*
+        )
+        gzip -9 org.dart4e.studio-macosx.cocoa.aarch64.tar
+
+        # generate macos x86_64 archive
         (
           cd org.dart4e.studio/macosx/cocoa/x86_64; 
           tar -cf ../../../../org.dart4e.studio-macosx.cocoa.x86_64.tar --exclude='Eclipse.app/Contents/MacOS/Dart4EStudio' --exclude='Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.*/jre/bin' *;
@@ -156,7 +164,7 @@ jobs:
         )
         gzip -9 org.dart4e.studio-macosx.cocoa.x86_64.tar
 
-        # generate windows archive
+        # generate windows x86_64 archive
         7z a -mx9 -tzip org.dart4e.studio-win.x86_64.zip ./org.dart4e.studio/win32/win32/x86_64/*
 
 
@@ -206,6 +214,7 @@ jobs:
           --notes "$COMMIT_MSG" \
           --target "${{ github.sha }}" \
           product/target/products/org.dart4e.studio-linux.gtk.x86_64.tar.gz \
+          product/target/products/org.dart4e.studio-macosx.cocoa.aarch64.tar.gz \
           product/target/products/org.dart4e.studio-macosx.cocoa.x86_64.tar.gz \
           product/target/products/org.dart4e.studio-win.x86_64.zip \
           product/target/Dart4EStudioPortable.paf.exe
