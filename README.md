@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/dart4e/dart4e-studio/actions/workflows/build.yml/badge.svg)](https://github.com/dart4e/dart4e-studio/actions/workflows/build.yml)
 [![License](https://img.shields.io/github/license/dart4e/dart4e-studio.svg?color=blue)](LICENSE.txt)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.1%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 
 **Feedback and high-quality pull requests are  highly welcome!**
