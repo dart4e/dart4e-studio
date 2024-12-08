@@ -17,8 +17,8 @@
 
 ## <a name="about"></a>About
 
-Dart4E Studio is an [Eclipse](https://eclipse.org) based IDE for development using the [Dart](https://dart.dev) general purpose
-programming language and the [Flutter](https://flutter.dev/) application framework.
+Dart4E Studio is an [Eclipse](https://eclipse.org) based IDE designed for development with the [Dart](https://dart.dev) general
+purpose programming language and the [Flutter](https://flutter.dev/) application framework.
 
 It has the following plugins pre-installed:
 - [dart4e](https://github.com/dart4e/dart4e) - Dart/Flutter support
@@ -29,7 +29,7 @@ It has the following plugins pre-installed:
 - [Eclipse TM4E Language Pack](https://github.com/eclipse/tm4e/tree/main/org.eclipse.tm4e.language_pack) - syntax highlighting for popular languages
 - [Extra Syntax Highlighting](https://github.com/sebthom/extra-syntax-highlighting-eclipse-plugin) - syntax highlighting for additional languages
 - [Find/Replace View](https://github.com/sebthom/findview-eclipse-plugin) - Convenient view to find/replace within the active editor
-- [Previewer](https://github.com/sebthom/previewer-eclipse-plugin) - Preview view to display rendered versions of Markdown, GraphViz, Mermaid, PlantUML files
+- [Previewer](https://github.com/sebthom/previewer-eclipse-plugin) - Preview view to display rendered versions of Draw.io, Markdown, GraphViz, Mermaid, PlantUML files
 - [Indent Guide](https://github.com/grosenberg/IndentGuide) - Adds 'Indent Guide' (vertical line on indentation columns) to text editor
 - [Open with Eclipse](https://github.com/sebthom/open-with-eclipse-plugin) - Windows File explorer context menu integration
 - [ShellWax](https://github.com/eclipse/shellwax) - Bash File Editor
