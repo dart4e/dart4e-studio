@@ -6,7 +6,7 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: The Dart4E Project
 Automatic-Module-Name: org.dart4e.studio.plugin
 Bundle-Activator: org.dart4e.studio.Dart4EStudioPlugin
-Bundle-RequiredExecutionEnvironment: JavaSE-21
+Bundle-RequiredExecutionEnvironment: JavaSE-23
 Bundle-ClassPath: .
 Require-Bundle: org.eclipse.platform,
  org.eclipse.core.contenttype,
