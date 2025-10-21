@@ -20,6 +20,11 @@
    <artifactId>org.dart4e.studio.product</artifactId>
    <packaging>eclipse-repository</packaging>
 
+   <properties>
+      <!-- must match the product uid defined in one *.product file in this directory -->
+      <tycho.product.uid>org.dart4e.studio</tycho.product.uid>
+   </properties>
+
    <build>
       <plugins>
          <plugin>
@@ -41,7 +46,7 @@
             <configuration>
                <products>
                   <product>
-                     <id>org.dart4e.studio</id>
+                     <id>${tycho.product.uid}</id>
                   </product>
                </products>
                <!--<formats>
