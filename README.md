@@ -1,7 +1,7 @@
 # Dart4E Studio - an Eclipse based Dart/Flutter IDE
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e-studio/build.yml?logo=github)](https://github.com/dart4e/dart4e-studio/actions/workflows/build.yml)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.1%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v3.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 [![License](https://img.shields.io/github/license/dart4e/dart4e-studio.svg?color=blue)](LICENSE.txt)
 
 
