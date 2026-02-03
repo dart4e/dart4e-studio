@@ -13,7 +13,7 @@
    <parent>
       <groupId>com.vegardit.maven</groupId>
       <artifactId>vegardit-maven-parent</artifactId>
-      <version>7.0.0</version>
+      <version>8.0.0</version>
    </parent>
 
    <groupId>org.dart4e.studio</groupId>
@@ -66,7 +66,7 @@
 
 
    <properties>
-      <java.version>25</java.version>
+      <jdk.version>25</jdk.version>
       <tycho.version>5.0.1</tycho.version>
       <jgit.dirtyWorkingTree>error</jgit.dirtyWorkingTree>
 
@@ -310,7 +310,7 @@
 
                <!-- https://www.eclipse.org/justj/?page=documentation#products -->
                <!-- major version must match the one selected in build.target file -->
-               <executionEnvironment>org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped-${java.version}</executionEnvironment>
+               <executionEnvironment>org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped-${jdk.version}</executionEnvironment>
 
                <target>
                   <file>${maven.multiModuleProjectDirectory}/build.target</file>
