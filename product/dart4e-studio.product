@@ -349,18 +349,14 @@ version(s), and exceptions or additional permissions here}.&quot;
       <feature id="org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped" installMode="root"/>
       <feature id="org.eclipse.mylyn.wikitext.feature" installMode="root"/>
       <feature id="org.eclipse.shellwax.feature" installMode="root"/>
-      <feature id="org.eclipse.tm.terminal.connector.local.feature" installMode="root"/>
-      <feature id="org.eclipse.tm.terminal.connector.ssh.feature" installMode="root"/>
-      <feature id="org.eclipse.tm.terminal.connector.telnet.feature" installMode="root"/>
-      <feature id="org.eclipse.tm.terminal.control.feature" installMode="root"/>
-      <feature id="org.eclipse.tm.terminal.feature" installMode="root"/>
-      <feature id="org.eclipse.tm.terminal.view.feature" installMode="root"/>
+      <feature id="org.eclipse.terminal.feature" installMode="root"/>
       <feature id="org.eclipse.tm4e.language_pack.feature" installMode="root"/>
       <feature id="org.eclipse.wildwebdeveloper.embedder.node.feature" installMode="root"/>
       <feature id="org.eclipse.wildwebdeveloper.feature" installMode="root"/>
       <feature id="org.eclipse.wildwebdeveloper.xml.feature" installMode="root"/>
       <feature id="org.dart4e.studio.feature" installMode="root"/>
       <feature id="org.dart4e.feature" installMode="root"/>
+      <feature id="alien.rainbow.indentguide.feature" installMode="root"/>
       <feature id="de.jcup.batcheditor" installMode="root"/>
       <feature id="de.achimmihca.lineshortcuts.feature" installMode="root"/>
       <feature id="de.anbos.eclipse.easyshell.feature" installMode="root"/>
@@ -369,7 +365,6 @@ version(s), and exceptions or additional permissions here}.&quot;
       <feature id="de.sebthom.eclipse.findview.feature" installMode="root"/>
       <feature id="de.sebthom.eclipse.open_with_eclipse.feature" installMode="root"/>
       <feature id="de.sebthom.eclipse.previewer.feature" installMode="root"/>
-      <feature id="net.certiv.tools.indentguide.feature" installMode="root"/>
    </features>
    <configurations>
       <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />

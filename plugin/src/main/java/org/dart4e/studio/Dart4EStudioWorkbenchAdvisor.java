@@ -103,7 +103,7 @@ public class Dart4EStudioWorkbenchAdvisor extends IDEWorkbenchAdvisor {
       final var easyShellPrefs = new ScopedPreferenceStore(ConfigurationScope.INSTANCE, "de.anbos.eclipse.easyshell.plugin");
       easyShellPrefs.setDefault("v2_2_001/MIGRATED", true);
 
-      final var intentGuidePrefs = new ScopedPreferenceStore(ConfigurationScope.INSTANCE, "net.certiv.tools.indentguide");
+      final var intentGuidePrefs = new ScopedPreferenceStore(ConfigurationScope.INSTANCE, "alien.rainbow.indentguide");
       intentGuidePrefs.setDefault("indentguide.enabled", true);
       intentGuidePrefs.setDefault("indentguide.line_style", 3);
 

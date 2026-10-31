@@ -44,6 +44,8 @@
                </execution>
             </executions>
             <configuration>
+               <!-- Keep Tycho's additional JustJ repository on the same Java major version as build.target. -->
+               <productRepository>https://download.eclipse.org/justj/jres/${jdk.version}/updates/release/latest</productRepository>
                <products>
                   <product>
                      <id>${tycho.product.uid}</id>

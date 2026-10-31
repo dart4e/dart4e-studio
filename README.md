@@ -30,7 +30,7 @@ It has the following plugins pre-installed:
 - [Extra Syntax Highlighting](https://github.com/sebthom/extra-syntax-highlighting-eclipse-plugin) - syntax highlighting for additional languages
 - [Find/Replace View](https://github.com/sebthom/findview-eclipse-plugin) - Convenient view to find/replace within the active editor
 - [Previewer](https://github.com/sebthom/previewer-eclipse-plugin) - Preview view to display rendered versions of Draw.io, Markdown, GraphViz, Mermaid, PlantUML files
-- [Indent Guide](https://github.com/grosenberg/IndentGuide) - Adds 'Indent Guide' (vertical line on indentation columns) to text editor
+- [RainBow Indent Guide](https://github.com/RoiSoleil/IndentGuide/tree/rainbow-master) - Adds 'Indent Guide' (vertical line on indentation columns) to text editor
 - [Open with Eclipse](https://github.com/sebthom/open-with-eclipse-plugin) - Windows File explorer context menu integration
 - [ShellWax](https://github.com/eclipse/shellwax) - Bash File Editor
 - [Wild Web Developer](https://github.com/eclipse/wildwebdeveloper) - Web Development Tools (CSS, HTML, JavaScript, TypeScript, XML support)
